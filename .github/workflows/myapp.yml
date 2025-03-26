@@ -9,4 +9,4 @@ jobs:
         - name: building
         run: npm run build 
         - name: test
-        run: echo "working"
+        run: echo "work"
