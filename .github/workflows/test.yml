@@ -4,5 +4,11 @@ jobs:
     test:
         runs-on: ubuntu-latest
         steps:
+            - name: Install Dependencies
+              run: npm install
+
+            - name: buid
+              run: npm run build 
+
             - name: test pass
               run: echo "working"
